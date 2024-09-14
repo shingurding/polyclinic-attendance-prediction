@@ -114,3 +114,6 @@ data/*.parquet
 
 # DS_Store
 .DS_Store
+
+# Models
+models/
