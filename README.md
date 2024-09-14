@@ -30,7 +30,7 @@ This project aims to predict polyclinic attendance using different time series f
     ```
 
 ## Running the models
-To run the models, execute the following commands:
+To run and save the models, execute the following commands:
 ```bash
 python model_scripts/classical_lin_reg.py
 python model_scripts/arima_model.py
@@ -44,7 +44,7 @@ python model/smoothing_model.py
 │    └── AverageDailyPolyclinicAttendancesforSelectedDiseases.parquet
 ├── models/
 │    └── ... (saved models)
-├── models.ipynb
+├── models_training.ipynb
 ├── model_scripts/
 │    ├── classical_lin_reg.py
 │    ├── arima_model.py
