@@ -71,7 +71,7 @@ def main():
     diseases = {
         "Acute Conjunctivitis": ("models/arima_acute_conjunctivitis.pkl", (1, 1, 2), (1, 1, 1, 26)),
         "Acute Diarrhoea": ("models/arima_acute_diarrhoea.pkl", (1, 1, 2), (1, 1, 1, 13)),
-        "Acute Upper Respiratory Tract infections": ("models/arima_acute_urti.pkl", (0, 1, 1), (1, 1, 1, 13))
+        "Acute Upper Respiratory Tract infections": ("models/arima_acute_urti.pkl", (1, 2, 2), (1, 1, 1, 13))
     }
     cutoff_week = "2022-W26"
 
